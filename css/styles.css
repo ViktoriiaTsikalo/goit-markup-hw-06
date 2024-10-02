@@ -49,7 +49,6 @@ a {
 }
 
 .contacts-details {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -71,7 +70,6 @@ a {
 }
 
 .main-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -123,7 +121,6 @@ a {
 }
 
 .section-team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
@@ -155,7 +152,6 @@ a {
 /* fourth section */
 
 .section-portfolio-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
