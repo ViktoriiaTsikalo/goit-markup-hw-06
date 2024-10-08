@@ -3,7 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   max-width: 1440px;
-  text-align: center;
 }
 
 ul {
@@ -79,6 +78,11 @@ img {
   gap: 40px;
 }
 
+.top-bar-menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .top-bar-menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -123,21 +127,24 @@ img {
 
 .section-initial {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .initial {
-  width: 1440px;
-  height: 600px;
-  padding: 188px 472px;
+  max-width: 1440px;
 }
 
 .main-title {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  max-width: 496px;
   margin-bottom: 48px;
+  align-items: center;
+  margin-left: 316px;
+  text-align: center;
 }
 
 .button-text {
@@ -148,8 +155,12 @@ img {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
-  width: 169px;
+  display: block;
+  min-width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 480px;
 }
 
 .button-text:hover {
@@ -223,6 +234,12 @@ img {
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-position {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list-item-name {
@@ -231,15 +248,15 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-list-item-position {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* fourth section */
@@ -262,8 +279,10 @@ img {
   text-align: left;
 }
 
-.portfolio-list-item {
-  border-bottom: 1px solid #e7e9fc;
+.title-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-list-item-title {
@@ -272,17 +291,13 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .portfolio-list-item-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 
 /* footer */
@@ -292,7 +307,18 @@ img {
   text-align: left;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
+}
+
+.logo-web {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .part-logo {
@@ -304,6 +330,5 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
-  width: 264px;
+  max-width: 264px;
 }
