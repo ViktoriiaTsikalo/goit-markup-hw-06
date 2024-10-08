@@ -25,11 +25,11 @@ a {
 .container {
   margin: 0 auto;
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -78,7 +78,7 @@ img {
   gap: 40px;
 }
 
-.top-bar-menu-item {
+.top-bar-menu-item-link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -192,7 +192,7 @@ img {
 }
 
 .components-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   text-align: left;
 }
 
@@ -235,6 +235,7 @@ img {
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .name-position {
@@ -277,6 +278,9 @@ img {
   row-gap: 48px;
   column-gap: 24px;
   text-align: left;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .title-text {
