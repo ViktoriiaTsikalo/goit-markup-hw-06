@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  max-width: 1440px;
 }
 
 ul {
@@ -55,7 +54,7 @@ img {
 .top-bar-navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 
 .logo {
