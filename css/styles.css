@@ -331,10 +331,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-team-iteam-link:hover {
-  background-color: #404bbf;
-}
-
+.soc-team-iteam-link:hover,
 .soc-team-iteam-link:focus {
   background-color: #404bbf;
 }
@@ -491,10 +488,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-media-iteam-link:hover {
-  background-color: #31d0aa;
-}
-
+.soc-media-iteam-link:hover,
 .soc-media-iteam-link:focus {
   background-color: #31d0aa;
 }
