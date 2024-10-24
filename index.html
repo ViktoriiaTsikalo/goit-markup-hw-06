@@ -535,25 +535,33 @@
               </svg>
             </div>
           </div>
+          <div class="modal-label-textarea">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              rows="5"
+              placeholder="Text input"
+              class="modal-textarea"
+            ></textarea>
+          </div>
 
-          <label class="modal-label" for="user-comment">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            rows="5"
-            placeholder="Text input"
-            class="modal-textarea"
-          ></textarea>
           <div class="modal-checkbox">
             <div class="container-vector">
               <svg class="icon-consent" width="10" height="8">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
             </div>
-            <input type="checkbox" name="consent" id="consent" value="yes" />
-            <label class="consent-text" for="consent"
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="yes"
+              class="visually-hidden"
+            />
+            <label class="consent-text" for="user-privacy"
               >I accept the terms and conditions of the
-              <span class="policy">Privacy Policy</span></label
+              <a href="" class="policy">Privacy Policy</a></label
             >
           </div>
           <div class="modal-button">
